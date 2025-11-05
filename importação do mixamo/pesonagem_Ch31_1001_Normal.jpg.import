@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dx2bjb6hvjmb7"
+path.s3tc="res://.godot/imported/pesonagem_Ch31_1001_Normal.jpg-9c20d6b5214b4efb2a0ef52e6fdcc580.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "1ae646de0c9256f0e4e2c975dcb32142"
+}
+
+[deps]
+
+source_file="res://importação do mixamo/pesonagem_Ch31_1001_Normal.jpg"
+dest_files=["res://.godot/imported/pesonagem_Ch31_1001_Normal.jpg-9c20d6b5214b4efb2a0ef52e6fdcc580.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://importação do mixamo/pesonagem_Ch31_1001_Normal.jpg"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
