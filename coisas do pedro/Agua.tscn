@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://m4viuuadcor4"]
+
+[ext_resource type="Material" uid="uid://dsyl2v2sb8wst" path="res://coisas do pedro/Agua.tres" id="1_h3feo"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8f64p"]
+material = ExtResource("1_h3feo")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Agua" type="MeshInstance3D" parent="."]
+transform = Transform3D(4.39241, 0, 130.89, 0, 19.8165, 0, -130.89, 0, 4.39241, 0.738411, 0.413668, -0.0371103)
+mesh = SubResource("BoxMesh_8f64p")
+skeleton = NodePath("")

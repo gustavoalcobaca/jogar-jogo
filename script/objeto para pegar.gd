@@ -9,11 +9,11 @@ func interact() -> void:
 	queue_free()  # Remove o objeto da cena (como se fosse coletado)
 
 # Mostra o aviso de interação
-func show_prompt() -> void:
+func show_bar() -> void:
 	if prompt_label:
 		prompt_label.visible = true
 
 # Esconde o aviso de interação
-func hide_prompt() -> void:
+func hide_bar()	 -> void:
 	if prompt_label:
 		prompt_label.visible = false

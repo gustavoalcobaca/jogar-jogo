@@ -5,9 +5,7 @@ extends Node
 
 
 func _ready():
-	if not Engine.is_editor_hint() and has_node("UI"):
-		$UI.player = $Player
-
+	
 	# Load Sky3D into the demo environment if enabled
 	if Engine.is_editor_hint() and has_node("Environment") and \
 		Engine.get_singleton(&"EditorInterface").is_plugin_enabled("sky_3d"):

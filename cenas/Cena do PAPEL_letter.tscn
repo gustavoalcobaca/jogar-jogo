@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://b8y5joxh23slf"]
+
+[ext_resource type="Texture2D" uid="uid://bfoju3frva1pc" path="res://importação do mixamo/carta no caso.png" id="1_cdqx7"]
+[ext_resource type="Script" uid="uid://b1n55rgxi0l70" path="res://cenas/cena_do_papel_letter.gd" id="1_pwutb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pwutb"]
+albedo_texture = ExtResource("1_cdqx7")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_k02l0"]
+material = SubResource("StandardMaterial3D_pwutb")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cdqx7"]
+size = Vector3(2.15469, 0.127197, 2.06828)
+
+[node name="letter" type="Node3D"]
+script = ExtResource("1_pwutb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.74, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("PlaneMesh_k02l0")
+
+[node name="interact" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/interact"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0112152, 0.00967407, 0.0169774)
+shape = SubResource("BoxShape3D_cdqx7")
+
+[node name="Label" type="Label3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.252935, 0)
+visible = false
+billboard = 1
+text = "E interação"
+font_size = 33
