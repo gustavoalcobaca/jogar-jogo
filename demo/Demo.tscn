@@ -491,7 +491,7 @@ script = ExtResource("1_k7qca")
 [node name="Enemy" parent="." instance=ExtResource("15_nk7oj")]
 
 [node name="CharacterBody3D" parent="." instance=ExtResource("6_fwrtk")]
-transform = Transform3D(3.5, 0, 0, 0, 3.5, 0, 0, 0, 3.5, -202.067, 0, -298.265)
+transform = Transform3D(3.5, 0, 0, 0, 3.5, 0, 0, 0, 3.5, -185.582, 8.94387, -185.993)
 jump_force = 7.0
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
@@ -575,7 +575,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_56mel")
 
 [node name="Cube2" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(-7.22436, 527.825, 6.82853e-07, 0, -2.47425e-05, 16.753, 18.6496, 204.465, 2.64519e-07, -267.72, 0.0662976, 210.922)
+transform = Transform3D(-7.22437, 527.825, 1.2228e-06, 0, -2.47425e-05, 30, 18.6496, 204.465, 4.73681e-07, -267.72, 0.0662976, 210.922)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -587,7 +587,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Cube3" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(22, 0, 0, 0, -2.72168e-05, 18.429, 0, -622.647, -8.05557e-07, -194.747, 0.175161, 222.658)
+transform = Transform3D(30, 0, 0, 0, -3.49691e-05, 35, 0, -800, -1.5299e-06, -194.747, 0.175161, 222.658)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -599,7 +599,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Cube4" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(22.9446, 199.217, 2.57735e-07, 0, -2.9691e-05, 20.104, 7.03895, -649.38, -8.40129e-07, -227.805, 0.386453, 239.985)
+transform = Transform3D(22.9446, 234.631, 4.48703e-07, 0, -3.49691e-05, 35, 7.03894, -764.819, -1.46262e-06, -227.808, 0.386449, 240.148)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -611,7 +611,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Cube5" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(20, 0, 0, 0, -2.47425e-05, 16.753, 0, -566.043, -7.32297e-07, -206.147, 0.385995, 158.43)
+transform = Transform3D(20, 0, 0, 0, -3.49691e-05, 35, 0, -800, -1.5299e-06, -206.147, 0.385995, 158.43)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -623,7 +623,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Cube6" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(19.5821, 115.106, 1.48913e-07, 0, -2.47425e-05, 16.753, 4.06702, -554.216, -7.16996e-07, -187.929, 0.158095, 200.376)
+transform = Transform3D(29.3732, 162.681, 3.11107e-07, 0, -3.49691e-05, 35, 6.10053, -783.285, -1.49793e-06, -187.929, 0.220796, 200.376)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -635,7 +635,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Cube7" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(17.2084, 149.413, 1.93301e-07, 0, -2.22682e-05, 15.078, 5.27921, -487.035, -6.30096e-07, -236.523, 0.386453, 205.236)
+transform = Transform3D(22.9446, 234.632, 4.48704e-07, 0, -3.49691e-05, 35, 7.03896, -764.819, -1.46262e-06, -236.523, 0.386453, 205.236)
 material_override = SubResource("StandardMaterial3D_fe7ng")
 mesh = SubResource("ArrayMesh_cachs")
 skeleton = NodePath("")
@@ -647,7 +647,7 @@ visible = false
 shape = SubResource("ConcavePolygonShape3D_aph5u")
 
 [node name="Domik4" type="MeshInstance3D" parent="casas e cenario"]
-transform = Transform3D(654.585, -1508.61, -4.39624e-05, 0, -7.86805e-05, 1200, -1005.74, -981.878, -2.86128e-05, -231.204, 0.0248194, 183.927)
+transform = Transform3D(1063.53, -2314.53, -7.32706e-05, 0, -0.000120713, 2000, -1634.07, -1506.41, -4.76881e-05, -231.204, 0.0248194, 183.927)
 material_override = SubResource("StandardMaterial3D_jxpui")
 mesh = SubResource("ArrayMesh_573uf")
 skeleton = NodePath("")
@@ -819,3 +819,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.968, 2.34069, -315.787)
 
 [node name="UI" parent="." instance=ExtResource("18_cjhqh")]
 offset_right = -1.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -261.391, 9.26307, -223.268)
+light_energy = 16.0
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 16.0
+omni_range = 16.6283

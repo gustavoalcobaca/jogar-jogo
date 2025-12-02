@@ -280,5 +280,13 @@ visible = false
 billboard = 1
 text = "Press E interact"
 
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.139467, 0.990227, 0, -0.990227, 0.139467, 0, 2.9477, 0)
+light_energy = 23.025
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 16.0
+shadow_enabled = true
+spot_range = 5.91153
+
 [connection signal="body_entered" from="sanityzone" to="CharacterBody3D" method="_on_sanityzone_body_entered"]
 [connection signal="body_exited" from="sanityzone" to="CharacterBody3D" method="_on_sanityzone_body_exited"]
