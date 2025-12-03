@@ -24,10 +24,3 @@ mesh = SubResource("PlaneMesh_k02l0")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/interact"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0112152, 0.00967407, 0.0169774)
 shape = SubResource("BoxShape3D_cdqx7")
-
-[node name="Label" type="Label3D" parent="MeshInstance3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.252935, 0)
-visible = false
-billboard = 1
-text = "E interação"
-font_size = 33

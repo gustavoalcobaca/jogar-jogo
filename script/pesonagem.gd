@@ -5,7 +5,7 @@ extends CharacterBody3D
 # ========================
 @export_category("Configurações do jogador")
 @export var speed: float = 10.0
-@export var jump_force: float = 4.5
+@export var jump_force: float = 3.0
 @export var run_speed: float = 20.0
 
 # Vida
@@ -15,7 +15,7 @@ extends CharacterBody3D
 # Stamina
 @export var stamina_max: float = 100.0
 @export var stamina: float = 100.0
-@export var stamina_drain: float = 15.0
+@export var stamina_drain: float = 0.0
 @export var stamina_recovery: float = 2.0
 
 # Sanidade
@@ -43,7 +43,8 @@ var current_interactable: Node = null
 @onready var animation_tree: AnimationTree = $AnimationTree
 
 # Gravidade e controle
-var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
+#var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
+var gravity: float = 20.8
 var cam_ver: float = 0.0
 var is_running: bool = false
 
@@ -171,7 +172,7 @@ func update_health_bar_color() -> void:
 func _physics_process(delta: float) -> void:
 	# Gravidade
 	if not is_on_floor():
-		velocity += get_gravity() * delta
+		velocity.y -= gravity * delta
 
 	check_hover_collision()
 

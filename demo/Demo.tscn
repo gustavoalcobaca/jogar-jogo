@@ -495,7 +495,7 @@ transform = Transform3D(3.5, 0, 0, 0, 3.5, 0, 0, 0, 3.5, -185.582, 8.94387, -185
 jump_force = 7.0
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
-transform = Transform3D(3.41, 0, 0, 0, 3.41, 0, 0, 0, 3.41, -202.376, 2.60915, -305.491)
+transform = Transform3D(3.41, 0, 0, 0, 3.41, 0, 0, 0, 3.41, -202.376, 8.62366, -305.491)
 script = ExtResource("7_7c7ev")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="StaticBody3D"]
@@ -819,10 +819,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.968, 2.34069, -315.787)
 
 [node name="UI" parent="." instance=ExtResource("18_cjhqh")]
 offset_right = -1.0
-
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -261.391, 9.26307, -223.268)
-light_energy = 16.0
-light_indirect_energy = 16.0
-light_volumetric_fog_energy = 16.0
-omni_range = 16.6283
